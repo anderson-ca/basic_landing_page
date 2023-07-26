@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-black flex flex-col items-end p-3">
+    <footer className="bg-gray-900 flex flex-col items-end p-3">
       <ul className="flex gap-5 p-2">
         <li>
           <Image
@@ -29,9 +29,7 @@ const Footer = () => {
           />
         </li>
         <li className="flex items-center">
-          <div className="border border-gray-400 w-[200px] h-0">
-
-          </div>
+          <div className="border border-gray-400 w-[200px] h-0"></div>
         </li>
       </ul>
     </footer>

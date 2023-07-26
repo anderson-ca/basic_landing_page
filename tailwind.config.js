@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        "pink-bottom-left": "4px 4px 0px 0px #f78da7",
+        "pink-bottom-left-active": "8px 8px 0px 0px #f78da7",
+      },
       fontFamily: {
         edu: ["Edu SA Beginner", "sans"],
       },
