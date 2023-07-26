@@ -15,8 +15,9 @@ export default function Home() {
           muted
           type="video/mp4"
         />
-        <button className="absolute bg-black text-white rounded-md px-3 py-2 uppercase text-md z-10 top-[50vh] right-[45vw]">
-          get yours today
+        <button className="absolute bg-gray-900 text-gray-300 rounded-sm px-7 py-4 uppercase text-[1.1rem] z-10 top-[50vh] right-[42vw] flex gap-5 items-center font-edu leading-loose shadow-md font-thin">
+          <Image src="/bag.png" height={50} width={50} />
+          <p>get yours today</p>
         </button>
       </section>
       <section className="w-full h-full py-5 flex flex-col justify-center text-lg gap-5 items-center">
